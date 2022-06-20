@@ -4,7 +4,7 @@ html {
 
 *,
 ::before,
-::after{
+::after {
     box-sizing: inherit;
 }
 
@@ -19,13 +19,22 @@ body {
     flex-direction: column;
 }
 
-.heading{
+.heading {
     font-size: 50px;
 }
 
-.btn{
+.btn {
     font-size: 20px;
     padding: 6px 15px;
     border-radius: 4px;
     margin-bottom: 45px;
+}
+
+.btn:hover {
+    transform: scale(1.06);
+    cursor: pointer;
+}
+
+.hex:hover{
+    cursor: pointer;
 }

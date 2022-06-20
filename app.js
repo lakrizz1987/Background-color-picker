@@ -21,3 +21,8 @@ btnElement.addEventListener('click', () => {
     bodyElement.style.background = hexCode;
     hexElement.innerHTML = hexCode;
 })
+
+hexElement.addEventListener('click',()=>{
+    navigator.clipboard.writeText(hexElement.textContent);
+    alert('Color is picked!');
+})
